@@ -1,0 +1,109 @@
+/* Overall / Resets --- DO NOT EDIT THIS SECTION ---------------------------- */
+
+html  {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-size: 14px;
+}
+
+body  {
+  margin: 0;
+  padding: 0;
+  height: 100%;   
+  width: 100%;     
+}
+
+canvas {
+  display: block;
+}
+
+
+*   { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+/*  Header ------------------------------------------------ */
+
+header {
+  width: 100%; /* do not edit this */
+  height: 60px; /* do not edit this */
+  padding: 10px;
+  background-color: rgba(132, 0, 255, 0.592);
+  text-align: center;
+  font-size: large;
+  color: rgb(255, 252, 189);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+/*  Main Container ------------------------------------------------ */
+
+#main-container {
+  width: 100%;
+   height:100%; /*calc(100vh - 60px); do not edit this */
+  /* display: flex; do not edit this */
+ background-image:url('background2.jpeg');
+ background-size: 100% 110%;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: bottom left;
+
+}
+
+
+/*  Column Two --- Container for Canvas -------------------- */
+
+#column-two {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  /* background-image: url(background2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1920px,1080px; */
+  
+  /* display: flex;  do not edit this */
+  align-items: center; /* do not edit this */
+  justify-content: center; /* do not edit this */
+}
+
+
+
+/* DO NOT EDIT THE BELOW SECTION, unless you know what you're doing */
+
+/*  Alert -------------------- */
+/* 
+#alert {
+  display: none; 
+} */
+
+
+ /* MEDIA QUERIES --- (RESPONSIVE) ------------------------------------------------
+
+@media screen and (max-width: 800px) {
+
+  #main-container {
+    display: none;
+  }
+
+  #alert {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  } 
+
+  #alert > h2 {
+    text-align: center;
+  }
+} */
